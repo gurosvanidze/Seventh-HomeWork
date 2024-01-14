@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: roboto;
+    src: url("./Fonts/Roboto-Regular.ttf") format("truetype");
+}
+body {
+    background-color: #172755;
+}
+.wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+.logo {
+    width: 78.102px;
+    height: 78.102px;
+    flex-shrink: 0;
+    fill: var(--red, #EF2A82);
+    cursor: pointer;
+}
+.logo-text {
+    width: 229.321px;
+    height: 31.637px;
+    flex-shrink: 0;
+    fill: #FFF;
+    cursor: pointer;
+}
+.unite {
+    display: flex;
+    width: 359.314px;
+    height: 78.102px;
+    padding-right: 27.222px;
+    align-items: center;
+    gap: 24.669px;
+    flex-shrink: 0;
+}
+.text {
+    width: 517px;
+    height: 266px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: roboto;
+    font-size: 110.438px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1.104px;
+    margin-top: 15%;
+}
