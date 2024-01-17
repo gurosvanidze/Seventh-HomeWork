@@ -370,6 +370,7 @@ nav ul li:hover {
     align-items: center;
     justify-content: space-between;
     padding-top: 60px;
+    flex-wrap: wrap;
 }
 .footer-navigation ul {
     list-style-type: none;
